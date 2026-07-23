@@ -1,0 +1,26 @@
+# Amie
+
+> Amie is an AI-powered calendar, task, and meeting-notes app for individuals and teams. It records meetings without a bot, generates summaries and action items, schedules todos intelligently, and connects to tools like Google Calendar, Gmail, Slack, Notion, Linear, HubSpot, Pipedrive, Todoist, ClickUp, Craft, and Apple Reminders. Amie ships an official MCP server (update #128, 2026-07-14) that lets AI assistants such as Claude and ChatGPT read a user's calendar, contacts, tasks, and meeting notes and create todos. Amie does not publish a general-purpose public REST API; it exposes an in-app outbound webhook surface (Early Access) and the MCP connection.
+
+## Product
+- [Amie homepage](https://www.amie.so/): product overview and download
+- [Download Amie](https://amie.so/download): desktop and mobile apps
+- [Log in / Sign up](https://calendar.amie.so/login): web app and account access
+
+## Agent access
+- MCP server: connected in-app via settings > connect; exposes calendar, contacts, tasks (create/manage), and meeting-notes access to Claude, ChatGPT, and other AI tools. See changelog update #128.
+- Webhooks: outbound, configured at settings > integrations > API (Early Access); payloads carry titles and metadata.
+
+## Docs and updates
+- [Changelog](https://amie.so/changelog): dated release notes (sequential "Update #N")
+- [Pricing](https://amie.so/pricing): Pro and Business plans
+- [Blog](https://amie.so/blog)
+- [Contact / support](https://amie.so/contact)
+
+## Legal
+- [Terms of Use](https://amie.so/terms)
+- [Privacy Policy](https://amie.so/privacy)
+
+## Notes for agents
+- There is no public OpenAPI/Swagger, SDK, or CLI. Do not assume REST endpoints.
+- Agent integration is via the Amie MCP server (per-user, in-app connection), not a hosted MCP URL.

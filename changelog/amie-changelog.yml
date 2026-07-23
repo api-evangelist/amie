@@ -1,0 +1,38 @@
+generated: '2026-07-17'
+method: searched
+source: https://amie.so/changelog
+scheme: sequential-update-number     # e.g. "Update #128" — not semver
+current: '128'
+entries:
+- version: '128'
+  date: '2026-07-14'
+  breaking: false
+  highlights:
+  - Introduced an MCP server so AI assistants (Claude, ChatGPT) can access calendar, contacts, and tasks
+  - Added local markdown export of meeting notes
+  - Improved Todoist sync with webhook support
+- version: '127'
+  date: '2026-02-16'
+  breaking: false
+  highlights:
+  - Launched bidirectional Apple Reminders sync
+  - Enabled meeting notes without a linked calendar event
+- version: '126'
+  date: '2026-02-10'
+  breaking: false
+  highlights:
+  - Added Craft integration for pushing meeting notes and action items into Craft documents
+- version: '125'
+  date: '2026-01-30'
+  breaking: false
+  highlights:
+  - Upgraded webhooks with titles and metadata
+  - Introduced ClickUp integration
+  - Added PDF transcript downloads
+- version: '124'
+  date: '2025-11-24'
+  breaking: false
+  highlights:
+  - AI chat can edit draft events
+  - Improved Linear action-item sync with assignee support
+  - Fixed macOS notch positioning

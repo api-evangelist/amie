@@ -1,7 +1,31 @@
 aid: amie
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amie.png
 name: Amie
-description: 'Amie is a company surfaced as a portfolio company of creandum and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  Amie is an AI-powered calendar, task, and meeting-notes application for
+  individuals and teams, positioned as an alternative to meeting recorders like
+  Fireflies, Otter, and Fathom. It records calls across platforms without a bot
+  participant, generates AI summaries and action items, intelligently schedules
+  todos, and consolidates calendar and task management in one app. Amie
+  connects to Google Calendar, Gmail, Slack, Notion, Linear, HubSpot,
+  Pipedrive, Todoist, ClickUp, Craft, and Apple Reminders, and processes
+  meetings in many languages with speaker labeling. In update #128
+  (2026-07-14) Amie shipped an official MCP server that lets AI assistants such
+  as Claude and ChatGPT read a user's calendar, contacts, tasks, and meeting
+  notes and create todos, plus an in-app outbound webhook surface (Early
+  Access). Amie is backed by Creandum. It does not publish a general-purpose
+  public REST API, OpenAPI spec, SDK, or CLI.
 url: https://raw.githubusercontent.com/api-evangelist/amie/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -15,6 +39,14 @@ modified: '2026-07-17'
 tags:
 - Company
 - Consumer
+- Calendar
+- Productivity
+- Meetings
+- AI Assistant
+- Scheduling
+- Tasks
+- Notes
+- MCP
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +56,37 @@ maintainers:
 common:
 - type: Website
   url: https://www.amie.so/
+- type: SignUp
+  url: https://calendar.amie.so/login
+- type: Login
+  url: https://calendar.amie.so/login
+- type: Pricing
+  url: https://amie.so/pricing
+- type: Blog
+  url: https://amie.so/blog
+- type: Support
+  url: https://amie.so/contact
+- type: TermsOfService
+  url: https://amie.so/terms
+- type: PrivacyPolicy
+  url: https://amie.so/privacy
+- type: Download
+  url: https://amie.so/download
+- type: MCPServer
+  name: Amie MCP server
+  url: mcp/amie-mcp.yml
+- type: ChangeLog
+  name: Amie changelog
+  url: changelog/amie-changelog.yml
+- type: Webhooks
+  name: Amie webhooks (Early Access)
+  url: asyncapi/amie-webhooks.yml
+- type: DomainSecurity
+  url: security/amie-domain-security.yml
+- type: LLMsTxt
+  url: llms/amie-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

@@ -1,0 +1,21 @@
+generated: '2026-07-17'
+method: searched
+source: https://amie.so/changelog
+spec_type: Webhooks
+status: early-access
+notes: >-
+  Amie exposes an outbound webhook surface, configured in-app at
+  settings > integrations > API (labelled "Early Access"). Webhooks were
+  upgraded with titles and metadata in update #125 and are used to power
+  integration sync (e.g. Todoist, update #128). The provider does not publish
+  an AsyncAPI document or a formal event-type catalog, so no event schemas are
+  captured here; this artifact records the webhook surface only. Never
+  fabricate event names.
+webhooks:
+  configuration: settings > integrations > API
+  direction: outbound
+  payload_metadata:
+  - title
+  - metadata
+  event_catalog_published: false
+  asyncapi_published: false
