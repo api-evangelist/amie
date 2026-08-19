@@ -2,18 +2,15 @@ generated: '2026-07-17'
 method: searched
 status: published
 source: https://amie.so/changelog
-notes: >-
-  Amie shipped an official MCP server in update #128 (2026-07-14). It is
-  connected from within the Amie app (settings > connect), not exposed as a
-  public hosted URL, and lets AI assistants such as Claude and ChatGPT read a
-  user's calendar/contacts/tasks and create todos. No public tool schema or
-  endpoint URL is documented; capabilities below are transcribed from the
-  provider's changelog announcement.
+notes: 'Amie shipped an official MCP server in update #128 (2026-07-14). It is connected from within the
+  Amie app (settings > connect), not exposed as a public hosted URL, and lets AI assistants such as Claude
+  and ChatGPT read a user''s calendar/contacts/tasks and create todos. No public tool schema or endpoint
+  URL is documented; capabilities below are transcribed from the provider''s changelog announcement.'
 server:
   name: amie
   vendor: Amie
-  transport: unknown          # connected in-app via settings > connect; no public URL published
-  url: null                   # not published; per-user in-app connection
+  transport: unknown
+  url: null
   clients:
   - Claude
   - ChatGPT
@@ -26,3 +23,8 @@ capabilities:
   description: Create todos and manage your task lists
 - name: view_meeting_notes
   description: View meeting notes
+deployment:
+  mode: unclear
+  verified: searched
+  checked: '2026-08-12'
+  source: catalog MCP census
