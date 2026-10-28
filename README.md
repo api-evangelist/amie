@@ -64,6 +64,97 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Amie is a company surfaced as a portfolio company of creandum and added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.
+Amie is an AI-powered calendar, task, and meeting-notes application for individuals and teams, positioned as an alternative to meeting recorders like Fireflies, Otter, and Fathom. It records calls across platforms without a bot participant, generates AI summaries and action items, intelligently schedules todos, and consolidates calendar and task management in one app. Amie connects to Google Calendar, Gmail, Slack, Notion, Linear, HubSpot, Pipedrive, Todoist, ClickUp, Craft, and Apple Reminders, and processes meetings in many languages with speaker labeling. In update #128 (2026-07-14) Amie shipped an official MCP server that lets AI assistants such as Claude and ChatGPT read a user's calendar, contacts, tasks, and meeting notes and create todos, plus an in-app outbound webhook surface (Early Access). Amie is backed by Creandum. It does not publish a general-purpose public REST API, OpenAPI spec, SDK, or CLI.
 
-Backed by: creandum — https://www.amie.so/
+**Areas:** Company · Consumer · Calendar · Productivity · Meetings · AI Assistant · Scheduling · Task · Notes · MCP
+
+## Amie on APIs.io
+
+Everything profiled for Amie is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/amie/](https://apis.io/providers/amie/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Amie Webhooks](https://apis.io/asyncapis/amie/amie-webhooks/)
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [amie](https://apis.io/servers/amie/amie/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Amie Domain Security](https://apis.io/security/amie/amie-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.amie.so/)
+- [Pricing](https://amie.so/pricing)
+- [Sign up](https://calendar.amie.so/login)
+- [Support](https://amie.so/contact)
+- [Blog](https://amie.so/blog)
+- [Terms of service](https://amie.so/terms)
+- [Privacy policy](https://amie.so/privacy)
+
+## API Evangelist rating
+
+**Kin Score 28.1** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.0 |
+| Contract quality | 39.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 23.7 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 44.7 |
+
+**Agent readiness 20.7** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | yes |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — AI & Biometrics
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/amie/](https://apis.io/providers/amie/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Amie: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/amie/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
